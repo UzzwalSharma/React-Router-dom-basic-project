@@ -1,0 +1,99 @@
+/* Contact Component Specific Styles */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+    background-color: white;
+  }
+  
+  .contact-inner-container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .contact-info,
+  .contact-form {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info .flex {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #4a4a4a;
+  }
+  
+  .contact-info .flex svg {
+    margin-right: 10px;
+  }
+  
+  .contact-info .flex div {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .contact-form input,
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .contact-form input {
+    border: 1px solid #ccc;
+    color: #333;
+  }
+  
+  .contact-form input:focus {
+    border-color: #ff7f50;
+    outline: none;
+  }
+  
+  .contact-form button {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ff6347;
+  }
+  
+  .contact-form button:focus {
+    outline: none;
+  }
+  
+  @media (min-width: 768px) {
+    .contact-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  svg{
+    font-size: "10px";
+    height: "20px";
+  }

@@ -1,0 +1,90 @@
+/* About.css */
+
+.py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.text-gray-600 {
+    color: #718096;
+}
+
+.text-gray-900 {
+    color: #1a202c;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.md\\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.xl\\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.space-y-6 > * + * {
+    margin-top: 1.5rem;
+}
+
+.md\\:space-y-0 > * + * {
+    margin-top: 0;
+}
+
+.md\\:flex {
+    display: flex;
+}
+
+.md\\:gap-6 {
+    gap: 1.5rem;
+}
+
+.lg\\:items-center {
+    align-items: center;
+}
+
+.lg\\:gap-12 {
+    gap: 3rem;
+}
+
+
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.md\\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}

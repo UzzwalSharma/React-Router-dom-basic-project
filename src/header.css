@@ -1,0 +1,87 @@
+/* Header background and shadow styling */
+header {
+    background-color: #76d988;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+
+}
+
+/* Navigation styling */
+nav {
+    padding: 10px 20px;
+    border-bottom: 1px solid #e2e8f0;
+/* justify-content: center; */
+    background-color: #f56565;
+    /* align-items: center; */
+    display: flex;
+
+}
+
+/* Logo styling */
+header img {
+    height: 3rem;
+}
+
+/* Links styling */
+nav a {
+    
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: larger;
+    margin-right: 25px;
+    color: rgb(255, 247, 247);
+ 
+}
+
+/* nav a:hover {
+    background-color: #9ddfe4;
+} */
+
+/* Active link styling */
+/* nav a.active {
+    color: #f56565;
+} */
+
+/* Button styling */
+nav .btn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+nav .btn.login {
+    color: #4a5568;
+    background-color: transparent;
+    border: 1px solid #cbd5e0;
+}
+
+nav .btn.login:hover {
+    background-color: #e2e8f0;
+}
+
+nav .btn.get-started {
+    color: #ffffff;
+    background-color: #4a90e2;
+}
+
+nav .btn.get-started:hover {
+    background-color: #3578cc;
+}
+
+ul{
+    display: flex;
+   gap: 25px;
+   list-style: none;
+}
+
+/* header{
+    display: flex;
+    justify-content: center;
+} */

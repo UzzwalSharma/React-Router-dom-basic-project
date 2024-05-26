@@ -1,0 +1,75 @@
+/* Footer background and border styling */
+footer {
+    background-color: #ffffff;
+    border-top: 1px solid #e2e8f0;
+}
+
+/* Container styling */
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Logo styling */
+footer img {
+    height: 4rem;
+}
+
+/* Section heading styling */
+footer h2 {
+    margin-bottom: 1rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a5568;
+    text-transform: uppercase;
+}
+
+/* List styling */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Link styling */
+footer a {
+    color: #4a5568;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #718096;
+}
+
+/* Social media icon styling */
+footer svg {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    fill: currentColor;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    footer .container {
+        padding: 20px 10px;
+    }
+
+    footer h2 {
+        font-size: 12px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer ul li {
+        margin-right: 1rem;
+    }
+}
